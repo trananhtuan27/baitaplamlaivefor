@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<img id="anh1" alt="1" src="meo1.jpg" onclick="ham1();check()" width="200" height="200">
+<img id="anh2" alt="1" src="meo2.jpg" onclick="ham2();check()" width="200" height="200">
+<img id="anh3" alt="1" src="meo3.jpg" onclick="ham3();check()" width="200" height="200">
+<script>
+    let img1 = document.getElementById('anh1');
+
+    function ham1() {
+        switch (img1.alt) {
+            case "1":
+                img1.src = "meo2.jpg";
+                img1.alt = "2";
+                break;
+            case "2":
+                img1.src = "meo3.jpg";
+                img1.alt = "3";
+                break;
+            case "3":
+                img1.src = "meo1.jpg";
+                img1.alt = "1";
+                break;
+        }
+    }
+
+    let img2 = document.getElementById("anh2");
+
+    function ham2() {
+        switch (img2.alt) {
+            case "1":
+                img2.src = "meo2.jpg";
+                img2.alt = "2";
+                break;
+            case "2":
+                img2.src = "meo3.jpg";
+                img2.alt = "3";
+                break;
+            case "3":
+                img2.src = "meo1.jpg";
+                img2.alt = "1";
+                break;
+        }
+    }
+
+    let img3 = document.getElementById("anh3");
+
+    function ham3() {
+        switch (img3.alt) {
+            case "1":
+                img3.src = "meo2.jpg";
+                img3.alt = "2";
+                break;
+            case "2":
+                img3.src = "meo3.jpg";
+                img3.alt = "3";
+                break;
+            case "3":
+                img3.src = "meo1.jpg";
+                img3.alt = "1";
+                break;
+        }
+    }
+
+    function check() {
+        let a = document.getElementById("anh1");
+        let b = document.getElementById("anh2")
+        let c = document.getElementById("anh3");
+        if (a.alt == b.alt && b.alt == c.alt) {
+            alert("khôn phết");
+        }
+    }
+
+</script>
+</body>
+</html>

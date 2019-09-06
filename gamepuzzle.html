@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<img src="1.jpg" alt="1" id="anh1" onclick="vidu(this.id);check(this.id)" width="150" height="100"><br>
+<img src="2.jpg" alt="2" id="anh2" onclick="vidu(this.id);check(this.id)" width="150" height="100"><br>
+<img src="3.jpg" alt="3" id="anh3" onclick="vidu(this.id);check(this.id)" width="150" height="100"><br>
+<script>
+    function vidu(val) {
+        let img = document.getElementById(val);
+        switch (img.alt) {
+            case "1":
+                img.src = "1.jpg";
+                img.alt = "4";
+                break;
+            case "2":
+                img.src = "2.jpg";
+                img.alt = "5";
+                break;
+            case "3":
+                img.src = "3.jpg";
+                img.alt = "6";
+                break;
+
+            case "4":
+                img.src = "hoa1.png";
+                img.alt = "1";
+                break;
+                case "5":
+                    img.src = "hoa2.png";
+                    img.alt = "2";
+                    break;
+                    case "6":
+                        img.src = "hoa3.png";
+                        img.alt = "3";
+                        break;
+        }
+    }
+
+    function check() {
+        let hinh1 = document.getElementById("anh1");
+        let hinh2 = document.getElementById("anh2");
+        let hinh3 = document.getElementById("anh3");
+        if (hinh1.alt == "1" && hinh2.alt ==2 && hinh3.alt == 3 || hinh1.alt == "4" && hinh2.alt == "5" && hinh3.alt =="6"){
+            alert('chuẩn luôn :3')
+        }
+    }
+</script>
+</body>
+</html>
