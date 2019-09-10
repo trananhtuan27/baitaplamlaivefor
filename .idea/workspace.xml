@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7c9e9175-1956-410d-983a-b0f2e4ead72a" name="Default Changelist" comment="" />
+    <list default="true" id="7c9e9175-1956-410d-983a-b0f2e4ead72a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamepuzzlethunghiem.html" beforeDir="false" afterPath="$PROJECT_DIR$/gamepuzzlethunghiem.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,7 +22,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1QP4JEOsRQyVaNiGtpW6Z4EAKtv" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -49,7 +54,11 @@
       <updated>1567658824079</updated>
       <workItem from="1567658829590" duration="8356000" />
       <workItem from="1567731697469" duration="11263000" />
-      <workItem from="1567752213394" duration="1999000" />
+      <workItem from="1567752213394" duration="8397000" />
+      <workItem from="1567783088711" duration="228000" />
+      <workItem from="1567783397089" duration="65000" />
+      <workItem from="1567994765609" duration="282000" />
+      <workItem from="1568081069082" duration="1393000" />
     </task>
     <servers />
   </component>
@@ -61,7 +70,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
